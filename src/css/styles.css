@@ -18,3 +18,20 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.list-item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.flags-img {
+  margin-right: 10px;
+}
+.country-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+} 
+.country-card-title {
+  font-size: 35px;
+  margin: 5 auto;
+}
