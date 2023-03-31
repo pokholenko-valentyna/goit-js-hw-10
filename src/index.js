@@ -28,6 +28,7 @@ function handleInputCountryBox(e) {
 function renderCountry(country) {
     if (country.length > 10) {
         countryListEl.innerHTML = '';
+        countryInfotEl.innerHTML = '';
         return Notiflix.Notify.info("Too many matches found. Please enter a more specific name.");
     } else if (country.length === 1) {
         countryListEl.innerHTML = '';
